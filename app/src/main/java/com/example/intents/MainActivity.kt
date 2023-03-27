@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 //    }
 
         amb.entrarParametroBt.setOnClickListener {
-            val parametroIntent: Intent = Intent("BOLO_CHOCOLATE_ACTION")
+            val parametroIntent: Intent = Intent("WINDOW_PARAMETRO")
             parametroIntent.putExtra(PARAMETRO_EXTRA, amb.parametroTv.text.toString())
             parl.launch(parametroIntent)
         }
