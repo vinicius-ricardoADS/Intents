@@ -17,7 +17,7 @@
             android:name=".ParametroActivity"
             android:exported="false" >
             <intent-filter>
-                <action android:name="BOLO_CHOCOLATE_ACTION"/>
+                <action android:name="WINDOW_PARAMETRO"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
